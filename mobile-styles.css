@@ -1,0 +1,78 @@
+@media(max-width: 375px) {
+    .logo{
+        width: 120px;
+        margin-left: 5%;
+        margin-top: 7%;
+    }
+    
+    .container{
+        flex-direction: column;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 3%;
+        margin-top: 7%;
+    }
+
+    body{
+        /*font-size: 0.75em;*/
+        background: var(--violet) url(/images/bg-mobile.svg);
+        background-repeat: no-repeat;
+    }
+
+    .image-container{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .text-container{
+        padding: 10px;
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    .icon-container{
+        margin-top: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 10px;
+        display: flex;
+        justify-content: space-around;
+        width: 120px;
+    }
+
+    img{
+        width: 200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .heading{
+        font-size: 0.97em;
+    }
+    
+    .general-text{
+        font-size: 0.85em;
+    }
+
+    button{
+        color: var(--violet);
+        padding: 10px 10px;
+        border-radius: 20px;
+        background-color: white;
+        width: 145px;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        font-size: 0.75em;
+    }
+    
+    .attribution, .attribution a {
+        font-size: 0.65em;
+        margin-left: auto;
+        margin-right: auto;
+        width: 200px;
+        text-align: center;
+    }
+    footer{
+        margin-top: 7%;
+    }
+}
